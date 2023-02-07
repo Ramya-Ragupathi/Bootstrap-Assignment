@@ -5,7 +5,7 @@
 height: auto;  
 }
 
-#nav-links{    font-size: 15px;  color: black;    }
+#nav-links{    font-size: 15px;  color: black; font-weight:600;    }
 #nav-links:hover{color:rgb(246, 118, 154);}
 #navbar{       margin-top: -15px;    }
 .nav-items{    margin-right: 40px;   }  
@@ -102,10 +102,12 @@ height: auto;
 @media (max-width:500px){
  .collab-text{
   font-size: 30px;
+  font-weight: 600;
  }
 }
 .collab-text{
   font-size: 40px;
+  font-weight: 600;
 }
 @media (max-width:990px){
   .image-5{
@@ -211,18 +213,12 @@ input[type=email]{
 .cont::-webkit-scrollbar{
       display: none;
     }
-  /* .cont img{
-    position:absolute;
   
-  } */
   #header{
     
     height: 43px;
   }
-  /* #header > small{
-    font-size: 10px;
-
-  } */
+ 
   #li-color {
     list-style-type: none;
     display:flex;
